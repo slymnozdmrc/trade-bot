@@ -16,7 +16,7 @@ BINANCE_API_KEY = "YOUR_BINANCE_API_KEY"
 BINANCE_SECRET_KEY = "YOUR_BINANCE_SECRET_KEY"
 ```
 
-Finally, on whichever currecy you want to run the strategy on, replace this field with that symbol. By default, eth is defined.
+Finally, on whichever currecy you want to run the strategy on, replace this field with that symbol. By default, ETHUSDT is defined.
 
 ```
 TRADE_SYMBOL = 'ETHUSDT'
