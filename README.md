@@ -1,6 +1,6 @@
-#trade-bot
+# trade-bot
 
-Here I prepared a script that generates a buy sell signal by using macd and bollinger band indicators together. 
+Here I prepared a script that generates a buy/sell signal by using macd and bollinger band indicators together. 
 By default It use Binance websocket and api. Please feel free to change any other exchange api.
 
 First of All, You should run following comment to install necessary package:
