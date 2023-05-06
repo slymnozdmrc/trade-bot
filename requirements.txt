@@ -1,0 +1,8 @@
+python-binance
+TA-Lib 
+numpy
+websocket_client
+pandas
+pandas_ta
+matplotlib
+dotenv
