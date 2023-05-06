@@ -98,10 +98,10 @@ def on_message(ws, message):
             print(f"Last Signal: {last_signal:.2f}")
             print(f"In Position: {in_position}")
 
-def stream_kline(currency):
+def start_strategy(currency):
     SOCKET = f"wss://stream.binance.com:9443/ws/{currency}@kline_1m"
     ws = websocket.WebSocketApp(SOCKET, on_open=on_open, on_close=on_close, on_message=on_message, on_error=on_error)
     ws.run_forever()
 
 
-stream_kline("ethusdt")
+start_strategy(TRADE_SYMBOL.lower())
