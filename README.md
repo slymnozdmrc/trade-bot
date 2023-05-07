@@ -22,6 +22,9 @@ Finally, on whichever currecy you want to run the strategy on, replace this fiel
 TRADE_SYMBOL = 'ETHUSDT'
 ```
 
+![Output](output.png "")
+
+
 Now You are ready run strategy. Happy Trading!!!
 
 > **Important Notice:** Make sure you take your own risks while using this script. I cannot be held responsible for any loss.
